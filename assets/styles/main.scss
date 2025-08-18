@@ -1,3 +1,38 @@
-h1 {
+:root {
+    --poppy-dark: #87343d;
+    --poppy-light: #c64d5a;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 60px 0;
+}
+
+
+
+h1 { 
     color: #fff;
+    font-size: 3em;
+}
+
+.btn {
+    border: 0;
+    background-color: var(--poppy-light);
+    color: #fff;
+
+    padding: 10px 20px;  
+    
+    &:hover {
+        background-color: var(--poppy-dark);
+        color: #fff;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .container { 
+        margin: 0 40px;
+    }
 }

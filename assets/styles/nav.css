@@ -1,8 +1,12 @@
-.navbar {
+.navbar, .footer-bg {
   background-color: #fff;
   width: -moz-fit-content;
   width: fit-content;
   padding: 11px 59px;
   margin: auto;
   font-size: 1.1em;
+}
+
+.navbar {
+  justify-content: center;
 }/*# sourceMappingURL=nav.css.map */

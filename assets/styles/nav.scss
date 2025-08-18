@@ -1,7 +1,9 @@
-.navbar {
+.navbar, .footer-bg {
     background-color: #fff;
     width: fit-content;
     padding: 11px 59px;
     margin: auto;
     font-size: 1.1em;
 }
+
+.navbar { justify-content: center; }
